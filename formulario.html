@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Mi Formulario</h1>
+    <form action="#">
+       <fieldset>
+        <legend>Datos Personales</legend>
+        <label>Nombre:</label>
+        <input type="text" />
+        <br />
+        <label>Clave:</label>
+        <input type="password"/>
+        <br />
+        <label>Edad:</label>
+        <input type="number" placeholder="Edad.."/>
+        <br />
+        <label>Nick:</label>
+        <select name="miseleccion" id="my_seleccion" aria-placeholder="Seleccion..">
+            <option value="goku">Goku</option>
+            <option value="vegueta">Vegueta</option>
+            <option value="trunx">Trunx</option>
+        </select>
+        <br />
+        <label>Que opinas?</label>
+        <br>
+        <textarea name="mitexto" id="my_text" cols="30" rows="10"></textarea>
+        <br />
+        <button>Aceptar</button><input type="submit"/>
+       </fieldset>
+    </form>
+</body>
+</html>
