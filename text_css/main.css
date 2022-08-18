@@ -3,9 +3,16 @@ body {
 }
 
 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 1.5em;
     color: #222fff;
     text-align: justify;
     text-indent: 40px;
+    line-height: 1.7;
+    word-spacing: 10px;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.89);
 }
 
 a {
