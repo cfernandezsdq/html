@@ -1,0 +1,23 @@
+body {
+    background-color: #eee;
+}
+
+
+#over {
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+}
+
+img {
+    float: right;
+}
+
+img:hover {
+    float: right;
+    opacity: 0.5;
+}
+
+div p {
+    color: #f00;
+}
